@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "195151721270",
+    "project_id": "skillswap-6091a",
+    "storage_bucket": "skillswap-6091a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:195151721270:android:c557e62c5dd83b12d33997",
+        "android_client_info": {
+          "package_name": "com.example.skillswap"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARYo7AeEOn-g7jCGmrXfL7aTdw63l-62g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

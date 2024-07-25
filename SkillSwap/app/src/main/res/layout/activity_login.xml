@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+
+    <TextView
+        android:id="@+id/LabelLogin"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="@string/LabelLogin"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.217" />
+
+    <EditText
+        android:id="@+id/edtemailL"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="@string/edtemailL"
+        app:layout_constraintEnd_toEndOf="@+id/LabelLogin"
+        app:layout_constraintStart_toStartOf="@+id/LabelLogin"
+        app:layout_constraintTop_toBottomOf="@+id/LabelLogin" />
+
+
+    <EditText
+        android:id="@+id/edtpasswordL"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:text="@string/edtpasswordL"
+        app:layout_constraintEnd_toEndOf="@+id/edtemailL"
+        app:layout_constraintStart_toStartOf="@+id/edtemailL"
+        app:layout_constraintTop_toBottomOf="@+id/edtemailL" />
+
+
+    <Button
+        android:id="@+id/btmsignin"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:text="@string/btmsignin"
+        app:layout_constraintEnd_toEndOf="@+id/edtpasswordL"
+        app:layout_constraintStart_toStartOf="@+id/edtpasswordL"
+        app:layout_constraintTop_toBottomOf="@+id/edtpasswordL" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

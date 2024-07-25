@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">SkillSwap</string>
+
+    //choose
+    <string name="Sin">Sign in</string>
+    <string name="Sup">Sign up</string>
+
+    //Register
+    <string name="LabelRegister">Registration Form</string>
+    <string name="edtname">Name</string>
+    <string name="edtcity">City</string>
+    <string name="edtemail">E-mail</string>
+    <string name="edtpassword">Password</string>
+    <string name="btmsignup">Sign up</string>
+
+    //Login
+    <string name="LabelLogin">Sign In</string>
+    <string name="edtemailL">E-mail</string>
+    <string name="edtpasswordL">Password</string>
+    <string name="btmsignin">Sign in</string>
+    <string name="ToolBar">SkillSwap</string>
+
+    //New Thing
+    <string name="labellnewthing">New Thing</string>
+    <string name="NameThing">Name</string>
+    <string name="DescriptionThing">Description</string>
+    <string name="ImageThing"></string>
+    <string name="AddNewThingButton">Add New Thing</string>
+    <string name="ToolBar2">SkillSwap</string>
+    <string name="ToolBar3">SkillSwap</string>
+    <string name="ToolBar4">Skill Swap</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

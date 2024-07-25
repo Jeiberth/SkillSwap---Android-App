@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistrationActivity">
+
+    <EditText
+        android:id="@+id/edtname"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="@string/edtname"
+        app:layout_constraintEnd_toEndOf="@+id/LabelRegister"
+        app:layout_constraintStart_toStartOf="@+id/LabelRegister"
+        app:layout_constraintTop_toBottomOf="@+id/LabelRegister" />
+
+    <EditText
+        android:id="@+id/edtpasswordL"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:text="@string/edtpassword"
+        app:layout_constraintEnd_toEndOf="@+id/edtemail"
+        app:layout_constraintStart_toStartOf="@+id/edtemail"
+        app:layout_constraintTop_toBottomOf="@+id/edtemail" />
+
+    <EditText
+        android:id="@+id/edtemail"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="@string/edtemail"
+        app:layout_constraintEnd_toEndOf="@+id/edtcity"
+        app:layout_constraintStart_toStartOf="@+id/edtcity"
+        app:layout_constraintTop_toBottomOf="@+id/edtcity" />
+
+    <EditText
+        android:id="@+id/edtcity"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="@string/edtcity"
+        app:layout_constraintEnd_toEndOf="@+id/edtname"
+        app:layout_constraintStart_toStartOf="@+id/edtname"
+        app:layout_constraintTop_toBottomOf="@+id/edtname" />
+
+    <TextView
+        android:id="@+id/LabelRegister"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="@string/LabelRegister"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.217" />
+
+    <Button
+        android:id="@+id/btmsignup"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:text="@string/btmsignup"
+        app:layout_constraintEnd_toEndOf="@+id/edtpasswordL"
+        app:layout_constraintStart_toStartOf="@+id/edtpasswordL"
+        app:layout_constraintTop_toBottomOf="@+id/edtpasswordL" />
+</androidx.constraintlayout.widget.ConstraintLayout>
